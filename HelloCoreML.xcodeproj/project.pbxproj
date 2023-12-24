@@ -11,6 +11,13 @@
 		5D63F0B22B37FA6E004826E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0B12B37FA6E004826E4 /* ContentView.swift */; };
 		5D63F0B42B37FA6F004826E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D63F0B32B37FA6F004826E4 /* Assets.xcassets */; };
 		5D63F0B72B37FA6F004826E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D63F0B62B37FA6F004826E4 /* Preview Assets.xcassets */; };
+		5D63F0BE2B38022A004826E4 /* MLDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0BD2B38022A004826E4 /* MLDetector.swift */; };
+		5D63F0CE2B380872004826E4 /* MMRealSRNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0CB2B380871004826E4 /* MMRealSRNet.mlmodel */; };
+		5D63F0CF2B380872004826E4 /* Animface.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0CC2B380872004826E4 /* Animface.mlmodel */; };
+		5D63F0D02B380872004826E4 /* SportDetection.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0CD2B380872004826E4 /* SportDetection.mlmodel */; };
+		5D63F0D42B382AA6004826E4 /* PickerUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0D32B382AA6004826E4 /* PickerUIViewController.swift */; };
+		5D63F0D82B383A3F004826E4 /* VideoMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0D72B383A3F004826E4 /* VideoMLView.swift */; };
+		5D63F0DC2B38402B004826E4 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D63F0DB2B38402B004826E4 /* MNISTClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		5D63F0B12B37FA6E004826E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D63F0B32B37FA6F004826E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D63F0B62B37FA6F004826E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D63F0BD2B38022A004826E4 /* MLDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLDetector.swift; sourceTree = "<group>"; };
+		5D63F0CB2B380871004826E4 /* MMRealSRNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MMRealSRNet.mlmodel; sourceTree = "<group>"; };
+		5D63F0CC2B380872004826E4 /* Animface.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Animface.mlmodel; sourceTree = "<group>"; };
+		5D63F0CD2B380872004826E4 /* SportDetection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SportDetection.mlmodel; sourceTree = "<group>"; };
+		5D63F0D32B382AA6004826E4 /* PickerUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickerUIViewController.swift; path = ../../../Downloads/PickerUIViewController.swift; sourceTree = "<group>"; };
+		5D63F0D72B383A3F004826E4 /* VideoMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMLView.swift; sourceTree = "<group>"; };
+		5D63F0DB2B38402B004826E4 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 				5D63F0AF2B37FA6E004826E4 /* HelloCoreMLApp.swift */,
 				5D63F0B12B37FA6E004826E4 /* ContentView.swift */,
 				5D63F0B32B37FA6F004826E4 /* Assets.xcassets */,
+				5D63F0BD2B38022A004826E4 /* MLDetector.swift */,
+				5D63F0CC2B380872004826E4 /* Animface.mlmodel */,
+				5D63F0CB2B380871004826E4 /* MMRealSRNet.mlmodel */,
+				5D63F0CD2B380872004826E4 /* SportDetection.mlmodel */,
+				5D63F0D32B382AA6004826E4 /* PickerUIViewController.swift */,
+				5D63F0DB2B38402B004826E4 /* MNISTClassifier.mlmodel */,
+				5D63F0D72B383A3F004826E4 /* VideoMLView.swift */,
 				5D63F0B52B37FA6F004826E4 /* Preview Content */,
 			);
 			path = HelloCoreML;
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D63F0D82B383A3F004826E4 /* VideoMLView.swift in Sources */,
 				5D63F0B22B37FA6E004826E4 /* ContentView.swift in Sources */,
+				5D63F0D02B380872004826E4 /* SportDetection.mlmodel in Sources */,
+				5D63F0D42B382AA6004826E4 /* PickerUIViewController.swift in Sources */,
+				5D63F0CE2B380872004826E4 /* MMRealSRNet.mlmodel in Sources */,
+				5D63F0CF2B380872004826E4 /* Animface.mlmodel in Sources */,
 				5D63F0B02B37FA6E004826E4 /* HelloCoreMLApp.swift in Sources */,
+				5D63F0BE2B38022A004826E4 /* MLDetector.swift in Sources */,
+				5D63F0DC2B38402B004826E4 /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +303,8 @@
 				DEVELOPMENT_TEAM = 3CMA49RV93;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Permission Required to add ML Functions";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo permission required to run the ML model";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +334,8 @@
 				DEVELOPMENT_TEAM = 3CMA49RV93;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Permission Required to add ML Functions";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo permission required to run the ML model";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
